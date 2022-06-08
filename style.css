@@ -1,0 +1,88 @@
+button {
+  margin: 20px;
+  background-color: #0b6e02;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+p {
+  color: #000;
+  text-align: center;
+}
+
+#result p{
+  font-size: 1.2em;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #ffffff;
+  
+}
+
+#result:hover{
+  background-color: #fff;
+  color:#0b6e02;
+  transition: 0.8s;
+}
+
+#result p:hover{
+  color: #0b6e02;
+  transition: 0.8s;
+
+}
+
+#numone {
+  width: 20%;
+  padding: 5px 10px;
+  margin: 8px 0px 0px 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#numtwo {
+  width: 20%;
+  padding: 5px 10px;
+  margin: 8px 0px 0px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#result {
+  background-color: #0b6e02;
+  width: 23%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* background-image: url(pexels-fwstudio-129731.jpg); */
+}
+
+.setting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingtwo{
+  display: flex;
+  justify-content: center;
+
+}
+.semi-setting{
+  text-align: center;
+}
